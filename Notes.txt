@@ -1,0 +1,5 @@
+python3 -m venv webscrapers_venv
+
+source webscrapers_venv/bin/activate
+
+pip install beautifulsoup4
