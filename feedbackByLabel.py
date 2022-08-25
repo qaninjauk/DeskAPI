@@ -13,7 +13,7 @@ cf_password = data['password']
 json_header = {'Accept': 'application/json'}
 
 
-search_label = raw_input("Enter the Label to search: \n")
+search_label = input("Enter the Label to search: \n")
 
 
 def get_cases_by_label(label_name):
@@ -83,7 +83,7 @@ def get_cases_by_label(label_name):
     output.close()
 
     print ('\n')
-    print 'Search completed - please check text file!'
+    print ('Search completed - please check text file!')
     print ('\n')
 
 
