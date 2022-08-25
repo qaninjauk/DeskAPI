@@ -41,7 +41,7 @@ c.perform()
 
 deskData = json.loads(data.getvalue())
 
-print "Process Completed"
+print("Process Completed")
 
 #print deskData
 
@@ -51,4 +51,4 @@ with open('deskdata.json', 'w') as outfile:
     outfile.write(json.dumps(deskData))
     outfile.close()
     print
-    print "Output File: ", os.getcwd()
+    print ("Output File: ", os.getcwd())

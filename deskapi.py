@@ -83,7 +83,7 @@ def get_cases_by_label(label_name):
     output.close()
 
     print ('\n')
-    print 'Search completed - please check text file!'
+    print ('Search completed - please check text file!')
     print ('\n')
 
 
